@@ -7,13 +7,10 @@ This is an initiative for students who looking into web development by learning 
 </br>2.Drop all the codes and initiate a pull request
 </br><b>Folder structure </b>
 </br>mainfolder/
-</br>
-    </br>├── css/
-    </br>│   │   
-    </br>│   └──main.css
-    </br>│ 
-    </br>├── js/
-    </br>│   │    
-    </br>│   └── main.js
-    </br>└── index.html
+
+    ├── css/
+    │   └──main.css
+    ├── js/  
+    │   └── main.js
+    └── index.html
 
