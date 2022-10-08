@@ -1,0 +1,97 @@
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: #ecf0f1;
+  color: #fff;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.main-header {
+  margin: auto;
+  width: 75%;
+  min-height: 90px;
+  padding: 1em 2em;
+  border: 2px solid #2675a9;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+  background: #2980b9;
+}
+.main-header:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.logo {
+  display: block;
+  text-decoration: none;
+  float: left;
+  margin-top: 14px;
+  color: white;
+  font-size: 1.4em;
+}
+
+/* Nav Demo Styles -------------------- */
+
+.main-nav,
+.drop-nav {
+  background: #2c3e50;
+}
+.main-nav {
+  float: right;
+  border-radius: 4px;
+  margin-top: 8px;
+  border: solid 1px #1e2a36;
+}
+.main-nav > li {
+  float: left;
+  border-left: solid 1px #1e2a36;
+}
+.main-nav li:first-child {
+  border-left: none;
+}
+.main-nav a {
+  color: #fff;
+  display: block;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+.dropdown,
+.flyout {
+  position: relative;
+}
+.dropdown:after {
+  content: "\25bc";
+  font-size: 0.5em;
+  display: block;
+  position: absolute;
+  top: 38%;
+  right: 12%;
+}
+.drop-nav,
+.flyout-nav {
+  position: absolute;
+  display: none;
+}
+.drop-nav li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.dropdown:hover > .drop-nav,
+.flyout:hover > .flyout-nav {
+  display: block;
+}
+.flyout-nav {
+  left: 100%;
+  top: 0;
+}
+.flyout:hover a,
+.flyout-nav {
+  background: #395066;
+}
