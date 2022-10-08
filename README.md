@@ -8,8 +8,8 @@ This is an initiative for students who looking into web development by learning 
 </br><b>Folder structure </b>
 </br>samplefolder/</br>
     ├── css/</br>
-    │   └──main.css</br>
+    │     └──main.css</br>
     ├── js/  </br>
-    │   └── main.js</br>
+    │     └── main.js</br>
     └── index.html</br>
 
