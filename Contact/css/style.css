@@ -1,1 +1,104 @@
 
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+body {
+  align-items: center;
+  margin: auto;
+  width: 490px;
+  height: 495px;
+  padding-top: 5%;
+}
+#box {
+  background: linear-gradient(
+    277deg,
+    #7c3ef9,
+    #843cc4,
+    #8d3b8f,
+    #953959,
+    #9e3724
+  );
+  width: 481px;
+  padding-left: 10px;
+  position: absolute;
+  font-family: "Noto Sans", sans-serif;
+  background-size: 1000% 1000%;
+  color: white;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+
+  -webkit-animation: AnimationName 10s ease infinite;
+  -moz-animation: AnimationName 10s ease infinite;
+  animation: AnimationName 10s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+form {
+  padding-top: 80px;
+  background-color: black;
+  padding-left: 10px;
+  padding-bottom: 30px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  width: 481px;
+
+  -webkit-animation: AnimationNameTwo 10s ease infinite;
+  -moz-animation: AnimationNameTwo 10s ease infinite;
+  animation: AnimationNameTwo 10s ease infinite;
+}
+
+#sub-button {
+  height: 60px;
+  width: 60px;
+  border-radius: 40px;
+  font-family: "Noto Sans", sans-serif;
+  color: white;
+  font-size: 15px;
+  background: linear-gradient(
+    277deg,
+    #7c3ef9,
+    #843cc4,
+    #8d3b8f,
+    #953959,
+    #9e3724
+  );
+  margin-left: 43%;
+}
+
+#message {
+  display: flex;
+}
